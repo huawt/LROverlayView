@@ -1,0 +1,6 @@
+framework module LROverlayView {
+  umbrella header "LROverlayView-umbrella.h"
+
+  export *
+  module * { export * }
+}

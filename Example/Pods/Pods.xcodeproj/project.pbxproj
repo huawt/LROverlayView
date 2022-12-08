@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E34CA162BEC8A060C29A7BBF233FE57 /* Pods-LROverlayView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8194A1D5734A80976AFFAFFD8FCF39DF /* Pods-LROverlayView_Example-dummy.m */; };
+		30DB8FF9C0302F0C644DF98DBDCAD661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		339F70A0E495328C5A4FDA7245C0CB37 /* LROverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 563C14F2950570F83B50A484DAA65CC2 /* LROverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		364767E10DEA4DDF9961588F5A314220 /* LROverlayTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0400CAE0AE8D2566D35F0B023EC18000 /* LROverlayTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A106C902C83F374F5300279A7FBBCC0 /* Pods-LROverlayView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C629499CE501F9FFB9BC4C6089F930 /* Pods-LROverlayView_Tests-dummy.m */; };
+		4F0E5FDED8BCAE39C7282CB9CAA67D04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		59F1AEB0DA7B079AAFAEC3DD508D69B6 /* LROverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0CE78DFA742B1CD05C430689CA4658 /* LROverView.m */; };
+		5C98B6E8531B0A805B635D93D0D6876E /* Pods-LROverlayView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65DDD83806B7F8C7EA7DEE18769E215B /* Pods-LROverlayView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67B8DA49377B8C740999E29F9002A0E4 /* LROverlayView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3578B03432ED19237E065B0398860DE4 /* LROverlayView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		994186AFEAC4FC712F619B3CE56B30C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BF9C8BCB56E341AA47F6CDD9D2D94A6A /* LROverView.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC4ED11E007348D400F396E4E67AE93 /* LROverView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C07711EA09E6C86FB8527FAEBA851BFC /* Pods-LROverlayView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E104A171E1BED48F847B994B01CFD3 /* Pods-LROverlayView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0577908CDF9DC0D89A0E4BE5F9A11A8 /* LROverlayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F510080F9BE6A020F941399388C993F /* LROverlayTool.m */; };
+		F1C8112A7CAD760A04225A6BC850F0A4 /* LROverHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 250891B18023F5A95A38A4492B76BDBD /* LROverHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA1AB0A8F19003CFF060A577E1570AE8 /* LROverlayView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C76D5DDFB8BC3A34BD1E60768054E7B /* LROverlayView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7806204E819FF6019BCF9AB822C97CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD940BF8F5DF0387B48C445A920B25A;
+			remoteInfo = "Pods-LROverlayView_Example";
+		};
+		EBFE4FA6F31F0E039D7E8F2C7B3D8421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F734476AA54AC6CD3DFCEDF8BC4F0778;
+			remoteInfo = LROverlayView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00811371E2A5062AA9E3B7F1D0A63391 /* Pods-LROverlayView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LROverlayView_Tests"; path = Pods_LROverlayView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0400CAE0AE8D2566D35F0B023EC18000 /* LROverlayTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LROverlayTool.h; path = LROverlayView/Classes/LROverlayTool.h; sourceTree = "<group>"; };
+		1027C3D707EBA09763E6B9422BD0B91A /* Pods-LROverlayView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LROverlayView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1972F5F4CE4EDD8F525CD75EDBBD2C24 /* Pods-LROverlayView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LROverlayView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B3FDEF0858D4F2A85F72B52C38FEA07 /* LROverlayView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LROverlayView.debug.xcconfig; sourceTree = "<group>"; };
+		1C76D5DDFB8BC3A34BD1E60768054E7B /* LROverlayView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LROverlayView-dummy.m"; sourceTree = "<group>"; };
+		2492F702A14B85C0BCEB27EAFEB4A054 /* Pods-LROverlayView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LROverlayView_Tests.modulemap"; sourceTree = "<group>"; };
+		250891B18023F5A95A38A4492B76BDBD /* LROverHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LROverHeader.h; path = LROverlayView/Classes/LROverHeader.h; sourceTree = "<group>"; };
+		2F510080F9BE6A020F941399388C993F /* LROverlayTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LROverlayTool.m; path = LROverlayView/Classes/LROverlayTool.m; sourceTree = "<group>"; };
+		3221548171B52F8D070DF33F8BC590A6 /* Pods-LROverlayView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LROverlayView_Example-Info.plist"; sourceTree = "<group>"; };
+		3578B03432ED19237E065B0398860DE4 /* LROverlayView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LROverlayView-umbrella.h"; sourceTree = "<group>"; };
+		563C14F2950570F83B50A484DAA65CC2 /* LROverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LROverlayView.h; path = LROverlayView/Classes/LROverlayView.h; sourceTree = "<group>"; };
+		65DDD83806B7F8C7EA7DEE18769E215B /* Pods-LROverlayView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LROverlayView_Example-umbrella.h"; sourceTree = "<group>"; };
+		69BACF9E4B566066677387871B8FE2D8 /* Pods-LROverlayView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LROverlayView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6AC2FFEF31390E0EA5FF1EEAED0D6526 /* LROverlayView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LROverlayView-Info.plist"; sourceTree = "<group>"; };
+		6B0CE78DFA742B1CD05C430689CA4658 /* LROverView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LROverView.m; path = LROverlayView/Classes/LROverView.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7760B58752BFC04E2DCC4460F19B5E59 /* Pods-LROverlayView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LROverlayView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8194A1D5734A80976AFFAFFD8FCF39DF /* Pods-LROverlayView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LROverlayView_Example-dummy.m"; sourceTree = "<group>"; };
+		81AD1F0BC57EDB9405F2791A9837A758 /* Pods-LROverlayView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LROverlayView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		81C629499CE501F9FFB9BC4C6089F930 /* Pods-LROverlayView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LROverlayView_Tests-dummy.m"; sourceTree = "<group>"; };
+		840324209BBC925EAE931379FA45FE10 /* Pods-LROverlayView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LROverlayView_Example.modulemap"; sourceTree = "<group>"; };
+		87C9C214A914C1AB87D35B60A1D2B9FF /* LROverlayView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LROverlayView.modulemap; sourceTree = "<group>"; };
+		940DC333B8D7DBA5511B36D41FBF2EC2 /* LROverlayView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LROverlayView-prefix.pch"; sourceTree = "<group>"; };
+		95029D9B913ADD588F6ACEDEA56EDB49 /* Pods-LROverlayView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LROverlayView_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5E104A171E1BED48F847B994B01CFD3 /* Pods-LROverlayView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LROverlayView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A77C5E118F7783652C35E47527129BAD /* Pods-LROverlayView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LROverlayView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AABECC3024E1F6B57BCCF278A8DD0A31 /* LROverlayView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LROverlayView; path = LROverlayView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD650E284FA6BE59CEDCB8A4805533B4 /* LROverlayView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LROverlayView.release.xcconfig; sourceTree = "<group>"; };
+		BB0DD459205ED6C90A8543D8B7FC2CE0 /* Pods-LROverlayView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LROverlayView_Example"; path = Pods_LROverlayView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99D0ED1383354D668C6F94B0E648686 /* LROverlayView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LROverlayView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D57A0C62BFF5D23CAEA9ECC676ED455A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E458363DEEA3FA1CDF5FC4D3E09D84AD /* Pods-LROverlayView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LROverlayView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE0950B686F3197DE9A3C9AA6A5D626A /* Pods-LROverlayView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LROverlayView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F392C058E2BAD17EECED2158AD8EFC1E /* Pods-LROverlayView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LROverlayView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9ABC2BB67ED3495FC8140040DA2D65C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FBC4ED11E007348D400F396E4E67AE93 /* LROverView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LROverView.h; path = LROverlayView/Classes/LROverView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D7E8CBB370A485298E5BB8D2E7247D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994186AFEAC4FC712F619B3CE56B30C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831254F0E0A1C3D9E9BA4C8C8A5193D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DB8FF9C0302F0C644DF98DBDCAD661 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BA330371DBCFBD7619D404BB1E8AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0E5FDED8BCAE39C7282CB9CAA67D04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050AC142843899E8498A4652DAC89E80 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7E0B6FA4BFEA710653E3C5249D4151B /* LROverlayView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		17475F971F4974BC02A6329E6F99FAF4 /* Pods-LROverlayView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2492F702A14B85C0BCEB27EAFEB4A054 /* Pods-LROverlayView_Tests.modulemap */,
+				7760B58752BFC04E2DCC4460F19B5E59 /* Pods-LROverlayView_Tests-acknowledgements.markdown */,
+				1972F5F4CE4EDD8F525CD75EDBBD2C24 /* Pods-LROverlayView_Tests-acknowledgements.plist */,
+				81C629499CE501F9FFB9BC4C6089F930 /* Pods-LROverlayView_Tests-dummy.m */,
+				95029D9B913ADD588F6ACEDEA56EDB49 /* Pods-LROverlayView_Tests-Info.plist */,
+				A5E104A171E1BED48F847B994B01CFD3 /* Pods-LROverlayView_Tests-umbrella.h */,
+				F392C058E2BAD17EECED2158AD8EFC1E /* Pods-LROverlayView_Tests.debug.xcconfig */,
+				81AD1F0BC57EDB9405F2791A9837A758 /* Pods-LROverlayView_Tests.release.xcconfig */,
+			);
+			name = "Pods-LROverlayView_Tests";
+			path = "Target Support Files/Pods-LROverlayView_Tests";
+			sourceTree = "<group>";
+		};
+		206200A0370F4266476E6CD52D12E674 /* Pods-LROverlayView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				840324209BBC925EAE931379FA45FE10 /* Pods-LROverlayView_Example.modulemap */,
+				E458363DEEA3FA1CDF5FC4D3E09D84AD /* Pods-LROverlayView_Example-acknowledgements.markdown */,
+				A77C5E118F7783652C35E47527129BAD /* Pods-LROverlayView_Example-acknowledgements.plist */,
+				8194A1D5734A80976AFFAFFD8FCF39DF /* Pods-LROverlayView_Example-dummy.m */,
+				1027C3D707EBA09763E6B9422BD0B91A /* Pods-LROverlayView_Example-frameworks.sh */,
+				3221548171B52F8D070DF33F8BC590A6 /* Pods-LROverlayView_Example-Info.plist */,
+				65DDD83806B7F8C7EA7DEE18769E215B /* Pods-LROverlayView_Example-umbrella.h */,
+				EE0950B686F3197DE9A3C9AA6A5D626A /* Pods-LROverlayView_Example.debug.xcconfig */,
+				69BACF9E4B566066677387871B8FE2D8 /* Pods-LROverlayView_Example.release.xcconfig */,
+			);
+			name = "Pods-LROverlayView_Example";
+			path = "Target Support Files/Pods-LROverlayView_Example";
+			sourceTree = "<group>";
+		};
+		2E5E8A4293094B5E7CCB5D454B4C9F2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABECC3024E1F6B57BCCF278A8DD0A31 /* LROverlayView */,
+				BB0DD459205ED6C90A8543D8B7FC2CE0 /* Pods-LROverlayView_Example */,
+				00811371E2A5062AA9E3B7F1D0A63391 /* Pods-LROverlayView_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5AEB0B78FBA892166772771D0AE80DDF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				206200A0370F4266476E6CD52D12E674 /* Pods-LROverlayView_Example */,
+				17475F971F4974BC02A6329E6F99FAF4 /* Pods-LROverlayView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B391F2DB4D37F362AD086CADAE61382C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F9ABC2BB67ED3495FC8140040DA2D65C /* LICENSE */,
+				C99D0ED1383354D668C6F94B0E648686 /* LROverlayView.podspec */,
+				D57A0C62BFF5D23CAEA9ECC676ED455A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B43861977CDC4220041705E5CC36BFF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87C9C214A914C1AB87D35B60A1D2B9FF /* LROverlayView.modulemap */,
+				1C76D5DDFB8BC3A34BD1E60768054E7B /* LROverlayView-dummy.m */,
+				6AC2FFEF31390E0EA5FF1EEAED0D6526 /* LROverlayView-Info.plist */,
+				940DC333B8D7DBA5511B36D41FBF2EC2 /* LROverlayView-prefix.pch */,
+				3578B03432ED19237E065B0398860DE4 /* LROverlayView-umbrella.h */,
+				1B3FDEF0858D4F2A85F72B52C38FEA07 /* LROverlayView.debug.xcconfig */,
+				AD650E284FA6BE59CEDCB8A4805533B4 /* LROverlayView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LROverlayView";
+			sourceTree = "<group>";
+		};
+		B7E0B6FA4BFEA710653E3C5249D4151B /* LROverlayView */ = {
+			isa = PBXGroup;
+			children = (
+				250891B18023F5A95A38A4492B76BDBD /* LROverHeader.h */,
+				0400CAE0AE8D2566D35F0B023EC18000 /* LROverlayTool.h */,
+				2F510080F9BE6A020F941399388C993F /* LROverlayTool.m */,
+				563C14F2950570F83B50A484DAA65CC2 /* LROverlayView.h */,
+				FBC4ED11E007348D400F396E4E67AE93 /* LROverView.h */,
+				6B0CE78DFA742B1CD05C430689CA4658 /* LROverView.m */,
+				B391F2DB4D37F362AD086CADAE61382C /* Pod */,
+				B43861977CDC4220041705E5CC36BFF8 /* Support Files */,
+			);
+			name = LROverlayView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				050AC142843899E8498A4652DAC89E80 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2E5E8A4293094B5E7CCB5D454B4C9F2D /* Products */,
+				5AEB0B78FBA892166772771D0AE80DDF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E96F6FEF238B17B7C664202DF170EDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07711EA09E6C86FB8527FAEBA851BFC /* Pods-LROverlayView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921400D6E728FE4A91F792E9AA4E8BD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C98B6E8531B0A805B635D93D0D6876E /* Pods-LROverlayView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2F2C625816A3304F7AD182152A6A8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C8112A7CAD760A04225A6BC850F0A4 /* LROverHeader.h in Headers */,
+				364767E10DEA4DDF9961588F5A314220 /* LROverlayTool.h in Headers */,
+				339F70A0E495328C5A4FDA7245C0CB37 /* LROverlayView.h in Headers */,
+				67B8DA49377B8C740999E29F9002A0E4 /* LROverlayView-umbrella.h in Headers */,
+				BF9C8BCB56E341AA47F6CDD9D2D94A6A /* LROverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DD940BF8F5DF0387B48C445A920B25A /* Pods-LROverlayView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F932BAD1811907349029C5FF5937EB /* Build configuration list for PBXNativeTarget "Pods-LROverlayView_Example" */;
+			buildPhases = (
+				921400D6E728FE4A91F792E9AA4E8BD6 /* Headers */,
+				CE656F902150FEF8A3E2FAC5BAABD039 /* Sources */,
+				E2BA330371DBCFBD7619D404BB1E8AF8 /* Frameworks */,
+				180715D7D93501E0E3898A723BE1FE91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746416A0547806810D84F9E05046468F /* PBXTargetDependency */,
+			);
+			name = "Pods-LROverlayView_Example";
+			productName = Pods_LROverlayView_Example;
+			productReference = BB0DD459205ED6C90A8543D8B7FC2CE0 /* Pods-LROverlayView_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		B17658BC466678B73D86481BCBF552E8 /* Pods-LROverlayView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08271B6925B594D23DDEB028D44E3BE6 /* Build configuration list for PBXNativeTarget "Pods-LROverlayView_Tests" */;
+			buildPhases = (
+				1E96F6FEF238B17B7C664202DF170EDB /* Headers */,
+				4A13495934E11558880BAF037BF649AF /* Sources */,
+				5D7E8CBB370A485298E5BB8D2E7247D9 /* Frameworks */,
+				E9592E82C402AD567C87F5ECD72BC2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB49C99F2C12200AE735CB3F383F485 /* PBXTargetDependency */,
+			);
+			name = "Pods-LROverlayView_Tests";
+			productName = Pods_LROverlayView_Tests;
+			productReference = 00811371E2A5062AA9E3B7F1D0A63391 /* Pods-LROverlayView_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F734476AA54AC6CD3DFCEDF8BC4F0778 /* LROverlayView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910B1159DE45F985418CC1F8AD328CCD /* Build configuration list for PBXNativeTarget "LROverlayView" */;
+			buildPhases = (
+				FD2F2C625816A3304F7AD182152A6A8D /* Headers */,
+				370F167E757C4252BF7C175D5696DBFE /* Sources */,
+				831254F0E0A1C3D9E9BA4C8C8A5193D9 /* Frameworks */,
+				BF385C87AD2501516206ECF1E4DB0839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LROverlayView;
+			productName = LROverlayView;
+			productReference = AABECC3024E1F6B57BCCF278A8DD0A31 /* LROverlayView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2E5E8A4293094B5E7CCB5D454B4C9F2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F734476AA54AC6CD3DFCEDF8BC4F0778 /* LROverlayView */,
+				3DD940BF8F5DF0387B48C445A920B25A /* Pods-LROverlayView_Example */,
+				B17658BC466678B73D86481BCBF552E8 /* Pods-LROverlayView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180715D7D93501E0E3898A723BE1FE91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF385C87AD2501516206ECF1E4DB0839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9592E82C402AD567C87F5ECD72BC2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370F167E757C4252BF7C175D5696DBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0577908CDF9DC0D89A0E4BE5F9A11A8 /* LROverlayTool.m in Sources */,
+				FA1AB0A8F19003CFF060A577E1570AE8 /* LROverlayView-dummy.m in Sources */,
+				59F1AEB0DA7B079AAFAEC3DD508D69B6 /* LROverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A13495934E11558880BAF037BF649AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A106C902C83F374F5300279A7FBBCC0 /* Pods-LROverlayView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE656F902150FEF8A3E2FAC5BAABD039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E34CA162BEC8A060C29A7BBF233FE57 /* Pods-LROverlayView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		746416A0547806810D84F9E05046468F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LROverlayView;
+			target = F734476AA54AC6CD3DFCEDF8BC4F0778 /* LROverlayView */;
+			targetProxy = EBFE4FA6F31F0E039D7E8F2C7B3D8421 /* PBXContainerItemProxy */;
+		};
+		8AB49C99F2C12200AE735CB3F383F485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LROverlayView_Example";
+			target = 3DD940BF8F5DF0387B48C445A920B25A /* Pods-LROverlayView_Example */;
+			targetProxy = C7806204E819FF6019BCF9AB822C97CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53E8A8A8B7F0A4274C2F0184448BE8A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81AD1F0BC57EDB9405F2791A9837A758 /* Pods-LROverlayView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LROverlayView_Tests/Pods-LROverlayView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LROverlayView_Tests/Pods-LROverlayView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F72DA36C1101DE2EE9FCD2B140828B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BACF9E4B566066677387871B8FE2D8 /* Pods-LROverlayView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LROverlayView_Example/Pods-LROverlayView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LROverlayView_Example/Pods-LROverlayView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		648B8381C31474788C46CD991EEF2FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3FDEF0858D4F2A85F72B52C38FEA07 /* LROverlayView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LROverlayView/LROverlayView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LROverlayView/LROverlayView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LROverlayView/LROverlayView.modulemap";
+				PRODUCT_MODULE_NAME = LROverlayView;
+				PRODUCT_NAME = LROverlayView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		95283659E71375DF4C4C0D10CCF7F0A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0950B686F3197DE9A3C9AA6A5D626A /* Pods-LROverlayView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LROverlayView_Example/Pods-LROverlayView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LROverlayView_Example/Pods-LROverlayView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEBD3E6039249768B4516B5573265669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F392C058E2BAD17EECED2158AD8EFC1E /* Pods-LROverlayView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LROverlayView_Tests/Pods-LROverlayView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LROverlayView_Tests/Pods-LROverlayView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C547211187AAA9B895C2383149DB3297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD650E284FA6BE59CEDCB8A4805533B4 /* LROverlayView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LROverlayView/LROverlayView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LROverlayView/LROverlayView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LROverlayView/LROverlayView.modulemap";
+				PRODUCT_MODULE_NAME = LROverlayView;
+				PRODUCT_NAME = LROverlayView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08271B6925B594D23DDEB028D44E3BE6 /* Build configuration list for PBXNativeTarget "Pods-LROverlayView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBD3E6039249768B4516B5573265669 /* Debug */,
+				53E8A8A8B7F0A4274C2F0184448BE8A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F932BAD1811907349029C5FF5937EB /* Build configuration list for PBXNativeTarget "Pods-LROverlayView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95283659E71375DF4C4C0D10CCF7F0A5 /* Debug */,
+				5F72DA36C1101DE2EE9FCD2B140828B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910B1159DE45F985418CC1F8AD328CCD /* Build configuration list for PBXNativeTarget "LROverlayView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648B8381C31474788C46CD991EEF2FFE /* Debug */,
+				C547211187AAA9B895C2383149DB3297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -58,13 +58,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		66C042A5A359144BB75D7E98 /* Pods-LROverlayView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LROverlayView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LROverlayView_Tests/Pods-LROverlayView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		67A5B207A20AC5D97C5672D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		67A5B207A20AC5D97C5672D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B7DD4F7AF5D4DD1AD7F59C5 /* Pods-LROverlayView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LROverlayView_Example.debug.xcconfig"; path = "Target Support Files/Pods-LROverlayView_Example/Pods-LROverlayView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7C16921B89D8EEB6CBA8013F /* Pods_LROverlayView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LROverlayView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A2DC039D56C4534631274CA /* LROverlayView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LROverlayView.podspec; path = ../LROverlayView.podspec; sourceTree = "<group>"; };
-		C205E3F15F7F70221096D475 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9A2DC039D56C4534631274CA /* LROverlayView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LROverlayView.podspec; path = ../LROverlayView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C205E3F15F7F70221096D475 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C89BEE1C9E3354DC0D3BC030 /* Pods_LROverlayView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LROverlayView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5AC6AB2D5736CE5575F555C /* Pods-LROverlayView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LROverlayView_Tests.release.xcconfig"; path = "Target Support Files/Pods-LROverlayView_Tests/Pods-LROverlayView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				66C042A5A359144BB75D7E98 /* Pods-LROverlayView_Tests.debug.xcconfig */,
 				E5AC6AB2D5736CE5575F555C /* Pods-LROverlayView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

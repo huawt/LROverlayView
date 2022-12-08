@@ -1,0 +1,16 @@
+PODS:
+  - LROverlayView (0.1.0)
+
+DEPENDENCIES:
+  - LROverlayView (from `../`)
+
+EXTERNAL SOURCES:
+  LROverlayView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LROverlayView: d74a3266b46fc04036b7e25689a9c2ad231a5f03
+
+PODFILE CHECKSUM: d4481da71bdb9293dfae2f90437326f1653407ae
+
+COCOAPODS: 1.11.3
