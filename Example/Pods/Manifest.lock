@@ -1,5 +1,5 @@
 PODS:
-  - LROverlayView (0.1.0)
+  - LROverlayView (0.1.1)
 
 DEPENDENCIES:
   - LROverlayView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LROverlayView: 3cf4c60804406627da1ab7a8e8730572f839a97b
+  LROverlayView: e9b2eec2b992bba25778e4642f8e5cd20ebc3baa
 
 PODFILE CHECKSUM: 6f22cbddad0d35351bb7f38c4fe168305286941e
 
